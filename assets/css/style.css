@@ -6,7 +6,7 @@
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
-    /* I'm a CSS comment! */
+
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -22,6 +22,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 
 header a {
@@ -75,9 +76,12 @@ footer a {
 
 section {
     padding: 60px;
-    background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpn");
+
 }
+
     /* Hero Style Start*/
+    
+    
     .hero {
         background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
         height: 600px;
@@ -85,6 +89,7 @@ section {
         background-position: center;
         position: relative;
     }
+    /* Hero Style End */
 
     .hero-form {
         border: 3px solid #024e76;
@@ -127,48 +132,45 @@ section {
         padding: 10px 20 px;
         font-size: 16px;
     }
-    /* Hero Style End */
+
 
 
     .intro {
         text-align: center;
     }
 
-    .intro h2 {
+    .intro h2{
         font-size: 55px;
         color: #024e76;
         margin-bottom: 35px;
-        padding: 0 100 px 20px 100px;
+        padding: 0 100px 20px 100px;
         border-bottom: 3px solid;
         border-color: #fce138;
     }
 
-
+    .intro h2 {
+        display: inline-block;
+    }
 
     .intro p {
         line-height: 1.7;
         color: #39a6b2;
         width: 80%;
         font-size: 20px;
-    }
-    .intro p{
-        /* add this alongside your other declarations */
+        
         margin: 0 auto;
     }
+
 
     .steps {
         text-align: center;
         background: #fce138;
     }
+
+    .steps div {
+        margin-bottom: 80px;
     
-    .sections-title {
-        font-size: 55px;
-        color: #024e76;
-        margin-bottom: 35px;
-        padding: 0 100px20px
-        100px;
-        display: in-line;
-        border-bottom: 3px solid;
+
     }
 
     .primary-border {
@@ -179,9 +181,7 @@ section {
         border-color: #39a6b2;
     }
 
-    .steps div {
-        margin-bottom: 80px;
-    }
+    
 
     .steps img {
         width: 15%;
@@ -201,4 +201,12 @@ section {
 
     .steps span {
         font-size: 38px;
+    }
+    .section-title {
+        font-size: 55px;
+        color: #024e76;
+        margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        display: inline-block;
+        border-bottom: 3px solid;
     }
