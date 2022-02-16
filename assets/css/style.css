@@ -5,7 +5,7 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
+ 
 
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
@@ -14,15 +14,20 @@ body {
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
-    background-color: #39a6b2
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    
 }
 
 header a {
@@ -31,7 +36,7 @@ header a {
 }
 
 header nav {
-    float: right;
+    
     margin: 7px 0;
 }
 
@@ -42,6 +47,7 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-size: 22px;
+    font-weight: lighter
 }
 
 
@@ -77,11 +83,12 @@ section {
     
     
     .hero {
-        background-image: url("C:\Users\Nancy\OneDrive\Desktop\run-buddy\assets\pictures\flipped-hero-image.jpg");
+        background-image: url('../images/flipped-hero-image.jpg');
         height: 600px;
         background-size: cover;
         background-position: center;
         position: relative;
+        height: 600px;
     }
     /* Hero Style End */
 
@@ -295,3 +302,5 @@ section {
         color: #fce138;
     }
     /* REACH OUT STYLES END */
+
+   
