@@ -11,7 +11,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -87,7 +87,7 @@ section {
 
 }
 
-    /* Hero Style Start*/
+    
     
     
     .hero {
@@ -116,7 +116,7 @@ section {
         color: #fce138;
     }
 
-    /* Hero Style End */
+    
 
     .hero-form {
         border: 3px solid #024e76;
@@ -328,7 +328,7 @@ section {
         margin: 0 auto 35px auto;
         width: 50%
     }
-    /* REACH OUT STYLES START */
+    
     .contact {
         
         background: #024e76;
@@ -376,7 +376,7 @@ section {
     }
 
 
-    /* REACH OUT STYLES END */
+    
 
    .flex-row {
        display: flex;
