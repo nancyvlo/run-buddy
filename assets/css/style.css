@@ -45,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -58,7 +58,7 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
-  
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -95,6 +95,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .hero-cta {
@@ -103,7 +104,7 @@ section {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -156,7 +157,7 @@ section {
 
 
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   border-bottom: 3px solid;
   color: #024e76;
   padding-bottom: 20px;
@@ -240,6 +241,8 @@ section {
   color: #024e76;
 
 }
+
+
 
 
 .trainers {
@@ -364,4 +367,9 @@ section {
 
 .flex-row {
   display: flex;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  
 }
